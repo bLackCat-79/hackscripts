@@ -31,17 +31,15 @@ import socket
 #Defining vars
 
 ipaddr = raw_input("Enter the IP range to scan/grab (example: 192.168.0.): ")
-#iprange = raw_input("Enter the last octet range you want to scan (example: 0,10 or 0,255) ")
 iprange1 = raw_input("Please enter the start number of the range to scan/grab (example: any number between 0 and 255): ")
 iprange2 = raw_input("Please enter the last number of the range to scan/grab (example: any number between higher then the start) : ")
 iprange1_int = int(iprange1)
 iprange2_int = int(iprange2)
-iprange = (iprange1_int + "," + iprange2_int)
-print iprange
+
 def main():
     ports = [21,23,22]
     ips = ipaddr
-    for octet in range (iprange):
+    for octet in range (iprange1_int, iprange2_int):
         for port in ports:
             ip = ips + str(octet)
             #print("[*] Testing port %s at IP %s") % (port, ip)
