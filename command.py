@@ -12,5 +12,4 @@ if total > 1:
 	if command == "attack":
 		print('I will kill you')
 	if command == "luc":
-		print('I am your father')
-
+		print('I am your father')...
