@@ -1,0 +1,308 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-12-19 13:02 CET
+Warning: 10.121.115.12 giving up on port because retransmission cap hit (1).
+Warning: 10.101.115.17 giving up on port because retransmission cap hit (1).
+Warning: 10.12.115.5 giving up on port because retransmission cap hit (1).
+Warning: 10.180.115.150 giving up on port because retransmission cap hit (1).
+Warning: 10.37.115.10 giving up on port because retransmission cap hit (1).
+Warning: 10.39.115.10 giving up on port because retransmission cap hit (1).
+Warning: 10.12.115.13 giving up on port because retransmission cap hit (1).
+Warning: 10.15.115.111 giving up on port because retransmission cap hit (1).
+Warning: 10.55.115.117 giving up on port because retransmission cap hit (1).
+Warning: 10.101.115.20 giving up on port because retransmission cap hit (1).
+Stats: 0:03:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 87.17% done; ETC: 13:06 (0:00:24 remaining)
+Stats: 0:06:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 89.17% done; ETC: 13:09 (0:00:42 remaining)
+Stats: 0:09:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 90.31% done; ETC: 13:12 (0:00:56 remaining)
+Stats: 0:12:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 91.74% done; ETC: 13:15 (0:01:03 remaining)
+Stats: 0:15:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 93.16% done; ETC: 13:18 (0:01:05 remaining)
+Stats: 0:18:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 96.82% done; ETC: 13:21 (0:00:35 remaining)
+Stats: 0:21:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.94% done; ETC: 13:23 (0:00:01 remaining)
+Nmap scan report for 10.147.115.20
+Host is up, received echo-reply ttl 128 (0.022s latency).
+Not shown: 983 filtered ports, 15 closed ports
+Reason: 983 no-responses and 15 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+49176/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), Actiontec MI424WR-GEN3I WAP (91%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), Linux 3.2 (91%), VMware Player virtual NAT device (90%), Linux 4.4 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49176/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   30.68 ms 10.147.115.20
+
+Nmap scan report for cbhz44100.vvm.addelijn.be (10.62.40.112)
+Host is up, received echo-reply ttl 128 (0.019s latency).
+Not shown: 988 filtered ports, 11 closed ports
+Reason: 988 no-responses and 11 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), Actiontec MI424WR-GEN3I WAP (91%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), Linux 3.2 (90%), VMware Player virtual NAT device (89%), Linux 4.4 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   25.06 ms cbhz44100.vvm.addelijn.be (10.62.40.112)
+
+Nmap scan report for cbhz44102.vvm.addelijn.be (10.62.40.111)
+Host is up, received echo-reply ttl 128 (0.018s latency).
+Not shown: 960 filtered ports, 39 closed ports
+Reason: 960 no-responses and 39 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), Actiontec MI424WR-GEN3I WAP (91%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), VMware Player virtual NAT device (90%), Linux 3.2 (89%), Linux 4.4 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   16.01 ms cbhz44102.vvm.addelijn.be (10.62.40.111)
+
+Nmap scan report for 10.15.115.111
+Host is up, received echo-reply ttl 128 (0.019s latency).
+Not shown: 968 filtered ports, 31 closed ports
+Reason: 968 no-responses and 31 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), Actiontec MI424WR-GEN3I WAP (91%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), Linux 3.2 (90%), VMware Player virtual NAT device (89%), Linux 4.4 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   20.77 ms 10.15.115.111
+
+Nmap scan report for 10.12.115.5
+Host is up, received echo-reply ttl 128 (0.013s latency).
+Not shown: 987 filtered ports, 12 closed ports
+Reason: 987 no-responses and 12 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), Actiontec MI424WR-GEN3I WAP (91%), VMware Player virtual NAT device (90%), DD-WRT v24-sp2 (Linux 2.4.37) (90%), Linux 3.2 (89%), Linux 4.4 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   12.56 ms 10.12.115.5
+
+Nmap scan report for 10.12.115.13
+Host is up, received echo-reply ttl 128 (0.014s latency).
+Not shown: 998 filtered ports, 1 closed port
+Reason: 998 no-responses and 1 reset
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Device type: general purpose
+Running: Microsoft Windows XP|7|2012
+OS CPE: cpe:/o:microsoft:windows_xp::sp3 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2012
+OS details: Microsoft Windows XP SP3, Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   11.87 ms 10.12.115.13
+
+Nmap scan report for cwos93402.vvm.addelijn.be (10.81.30.152)
+Host is up, received reset ttl 128 (0.018s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows XP|7|2012
+OS CPE: cpe:/o:microsoft:windows_xp::sp3 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2012
+OS details: Microsoft Windows XP SP3, Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   0.28 ms cwos93402.vvm.addelijn.be (10.81.30.152)
+
+Nmap scan report for 10.101.115.17
+Host is up, received echo-reply ttl 128 (0.015s latency).
+Not shown: 984 filtered ports, 15 closed ports
+Reason: 984 no-responses and 15 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), Actiontec MI424WR-GEN3I WAP (91%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), Linux 3.2 (91%), VMware Player virtual NAT device (90%), Linux 4.4 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   19.76 ms 10.101.115.17
+
+Nmap scan report for 10.101.115.20
+Host is up, received echo-reply ttl 128 (0.015s latency).
+Not shown: 981 filtered ports, 18 closed ports
+Reason: 981 no-responses and 18 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), Actiontec MI424WR-GEN3I WAP (91%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), Linux 3.2 (91%), VMware Player virtual NAT device (90%), Linux 4.4 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   19.84 ms 10.101.115.20
+
+Nmap scan report for clhz24049.vvm.addelijn.be (10.76.115.18)
+Host is up, received echo-reply ttl 128 (0.018s latency).
+Not shown: 977 filtered ports, 22 closed ports
+Reason: 977 no-responses and 22 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), Actiontec MI424WR-GEN3I WAP (91%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), Linux 3.2 (90%), VMware Player virtual NAT device (89%), Linux 4.4 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   19.76 ms clhz24049.vvm.addelijn.be (10.76.115.18)
+
+Nmap scan report for 10.121.115.12
+Host is up, received echo-reply ttl 128 (0.042s latency).
+Not shown: 982 filtered ports, 16 closed ports
+Reason: 982 no-responses and 16 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+49155/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Device type: general purpose
+Running: Microsoft Windows XP|7|2012
+OS CPE: cpe:/o:microsoft:windows_xp::sp3 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2012
+OS details: Microsoft Windows XP SP3, Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49155/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   16.80 ms 10.121.115.12
+
+Nmap scan report for 10.37.115.10
+Host is up, received echo-reply ttl 128 (0.019s latency).
+Not shown: 982 filtered ports, 17 closed ports
+Reason: 982 no-responses and 17 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), VMware Player virtual NAT device (92%), Actiontec MI424WR-GEN3I WAP (90%), DD-WRT v24-sp2 (Linux 2.4.37) (90%), Linux 3.2 (89%), Linux 4.4 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   27.65 ms 10.37.115.10
+
+Nmap scan report for 10.39.115.10
+Host is up, received echo-reply ttl 128 (0.020s latency).
+Not shown: 980 filtered ports, 19 closed ports
+Reason: 980 no-responses and 19 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (94%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), Linux 4.4 (90%), Actiontec MI424WR-GEN3I WAP (90%), VMware Player virtual NAT device (89%), Linux 3.2 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   19.51 ms 10.39.115.10
+
+Nmap scan report for cblc44017.vvm.addelijn.be (10.55.115.117)
+Host is up, received reset ttl 128 (0.016s latency).
+Not shown: 993 filtered ports, 6 closed ports
+Reason: 993 no-responses and 6 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), VMware Player virtual NAT device (90%), Actiontec MI424WR-GEN3I WAP (90%), Linux 3.2 (89%), Linux 4.4 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   0.58 ms cblc44017.vvm.addelijn.be (10.55.115.117)
+
+Nmap scan report for 10.89.115.150
+Host is up, received echo-reply ttl 128 (0.027s latency).
+Not shown: 972 filtered ports, 27 closed ports
+Reason: 972 no-responses and 27 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (94%), Actiontec MI424WR-GEN3I WAP (91%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), Linux 3.2 (90%), VMware Player virtual NAT device (89%), Linux 4.4 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   18.28 ms 10.89.115.150
+
+Nmap scan report for 10.180.115.150
+Host is up, received echo-reply ttl 128 (0.030s latency).
+Not shown: 991 filtered ports, 8 closed ports
+Reason: 991 no-responses and 8 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE REASON          VERSION
+49154/tcp open  msrpc   syn-ack ttl 128 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012 (95%), Microsoft Windows XP SP3 (95%), Actiontec MI424WR-GEN3I WAP (91%), DD-WRT v24-sp2 (Linux 2.4.37) (91%), Linux 3.2 (90%), VMware Player virtual NAT device (89%), Linux 4.4 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 10.15.115.113
+2   110.25 ms 10.180.115.150
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 41 IP addresses (41 hosts up) scanned in 1353.31 seconds

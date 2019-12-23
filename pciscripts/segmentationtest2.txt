@@ -1,0 +1,467 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-12-19 13:32 CET
+Warning: 10.86.115.151 giving up on port because retransmission cap hit (1).
+Warning: 10.90.115.152 giving up on port because retransmission cap hit (1).
+Warning: 10.55.115.117 giving up on port because retransmission cap hit (1).
+Warning: 10.180.115.150 giving up on port because retransmission cap hit (1).
+Warning: 10.121.115.12 giving up on port because retransmission cap hit (1).
+Warning: 10.81.30.152 giving up on port because retransmission cap hit (1).
+Warning: 10.147.115.20 giving up on port because retransmission cap hit (1).
+Warning: 10.76.115.18 giving up on port because retransmission cap hit (1).
+Warning: 10.76.115.9 giving up on port because retransmission cap hit (1).
+Warning: 10.39.115.10 giving up on port because retransmission cap hit (1).
+Warning: 10.89.115.150 giving up on port because retransmission cap hit (1).
+Warning: 10.90.115.153 giving up on port because retransmission cap hit (1).
+Warning: 10.12.115.5 giving up on port because retransmission cap hit (1).
+Stats: 0:03:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 58.83% done; ETC: 13:37 (0:02:05 remaining)
+Stats: 0:06:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 70.28% done; ETC: 13:41 (0:02:32 remaining)
+Stats: 0:09:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 73.61% done; ETC: 13:45 (0:03:13 remaining)
+Stats: 0:12:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 77.40% done; ETC: 13:48 (0:03:30 remaining)
+Stats: 0:15:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 79.24% done; ETC: 13:51 (0:03:56 remaining)
+Stats: 0:18:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 81.59% done; ETC: 13:54 (0:04:03 remaining)
+Stats: 0:21:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 85.09% done; ETC: 13:57 (0:03:41 remaining)
+Stats: 0:24:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 88.04% done; ETC: 14:00 (0:03:15 remaining)
+Stats: 0:27:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 90.92% done; ETC: 14:02 (0:02:42 remaining)
+Stats: 0:30:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 96.44% done; ETC: 14:03 (0:01:06 remaining)
+Stats: 0:33:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 97.44% done; ETC: 14:06 (0:00:52 remaining)
+Stats: 0:36:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 98.34% done; ETC: 14:09 (0:00:36 remaining)
+Stats: 0:39:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.14% done; ETC: 14:12 (0:00:20 remaining)
+Stats: 0:42:00 elapsed; 0 hosts completed (41 up), 41 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.71% done; ETC: 14:14 (0:00:07 remaining)
+Stats: 0:45:39 elapsed; 0 hosts completed (41 up), 41 undergoing Traceroute
+Traceroute Timing: About 0.79% done
+Stats: 0:48:00 elapsed; 0 hosts completed (41 up), 41 undergoing Traceroute
+Traceroute Timing: About 55.31% done; ETC: 14:22 (0:01:53 remaining)
+Nmap scan report for 10.147.115.20
+Host is up, received echo-reply ttl 128 (0.033s latency).
+Not shown: 990 filtered ports, 9 closed ports
+Reason: 990 no-responses and 9 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   186230.17 ms 10.147.115.20
+
+Nmap scan report for cbhz44100.vvm.addelijn.be (10.62.40.112)
+Host is up, received echo-reply ttl 128 (0.041s latency).
+Not shown: 998 filtered ports, 1 closed port
+Reason: 998 no-responses and 1 reset
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   186228.75 ms cbhz44100.vvm.addelijn.be (10.62.40.112)
+
+Nmap scan report for 10.15.115.111
+Host is up, received echo-reply ttl 128 (0.021s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   186229.83 ms 10.15.115.111
+
+Nmap scan report for 10.12.115.6
+Host is up, received echo-reply ttl 128 (0.041s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   186230.11 ms 10.12.115.6
+
+Nmap scan report for 10.12.115.12
+Host is up, received echo-reply ttl 128 (0.024s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   185222.81 ms 10.12.115.12
+
+Nmap scan report for 10.12.115.5
+Host is up, received reset ttl 128 (0.0046s latency).
+Not shown: 989 filtered ports, 10 closed ports
+Reason: 989 no-responses and 10 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 3 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT          ADDRESS
+1   ... 2
+3   156154.03 ms 10.12.115.5
+
+Nmap scan report for 10.12.115.13
+Host is up, received reset ttl 128 (0.00085s latency).
+Not shown: 992 filtered ports, 7 closed ports
+Reason: 992 no-responses and 7 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 3 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT          ADDRESS
+1   ... 2
+3   156154.05 ms 10.12.115.13
+
+Nmap scan report for 10.86.115.151
+Host is up, received echo-reply ttl 128 (0.035s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49153/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49153/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   185227.02 ms 10.86.115.151
+
+Nmap scan report for cwhz24111.vvm.addelijn.be (10.94.20.21)
+Host is up, received echo-reply ttl 128 (0.020s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49153/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49153/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   185221.42 ms cwhz24111.vvm.addelijn.be (10.94.20.21)
+
+Nmap scan report for cwos93402.vvm.addelijn.be (10.81.30.152)
+Host is up, received echo-reply ttl 128 (0.046s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   185230.00 ms cwos93402.vvm.addelijn.be (10.81.30.152)
+
+Nmap scan report for 10.101.115.17
+Host is up, received echo-reply ttl 128 (0.029s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   184223.86 ms 10.101.115.17
+
+Nmap scan report for clhz24052.vvm.addelijn.be (10.76.115.9)
+Host is up, received echo-reply ttl 128 (0.085s latency).
+Not shown: 996 filtered ports, 3 closed ports
+Reason: 996 no-responses and 3 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   184216.92 ms clhz24052.vvm.addelijn.be (10.76.115.9)
+
+Nmap scan report for clhz24049.vvm.addelijn.be (10.76.115.18)
+Host is up, received echo-reply ttl 128 (0.038s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   184216.83 ms clhz24049.vvm.addelijn.be (10.76.115.18)
+
+Nmap scan report for 10.68.115.6
+Host is up, received echo-reply ttl 128 (0.042s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   184218.11 ms 10.68.115.6
+
+Nmap scan report for 10.121.115.12
+Host is up, received echo-reply ttl 128 (0.032s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49155/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49155/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   184216.55 ms 10.121.115.12
+
+Nmap scan report for 10.43.115.101
+Host is up, received echo-reply ttl 128 (0.026s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49153/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49153/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   184217.42 ms 10.43.115.101
+
+Nmap scan report for 10.39.115.10
+Host is up, received echo-reply ttl 128 (0.043s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   183210.47 ms 10.39.115.10
+
+Nmap scan report for cblc44017.vvm.addelijn.be (10.55.115.117)
+Host is up, received echo-reply ttl 128 (0.035s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49155/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49155/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   183214.58 ms cblc44017.vvm.addelijn.be (10.55.115.117)
+
+Nmap scan report for 10.89.115.150
+Host is up, received echo-reply ttl 128 (0.033s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49154/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   182198.48 ms 10.89.115.150
+
+Nmap scan report for 10.90.115.152
+Host is up, received reset ttl 128 (0.11s latency).
+Not shown: 998 filtered ports, 1 closed port
+Reason: 998 no-responses and 1 reset
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49155/tcp open  tcpwrapped syn-ack ttl 128
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   161181.30 ms 10.90.115.152
+
+Nmap scan report for 10.90.115.153
+Host is up, received reset ttl 128 (0.00030s latency).
+Not shown: 985 filtered ports, 13 closed ports
+Reason: 985 no-responses and 13 resets
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49154/tcp open  tcpwrapped syn-ack ttl 128
+49155/tcp open  tcpwrapped syn-ack ttl 128
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   161181.27 ms 10.90.115.153
+
+Nmap scan report for 10.180.115.150
+Host is up, received echo-reply ttl 128 (0.047s latency).
+Not shown: 999 filtered ports
+Reason: 999 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE    REASON          VERSION
+49155/tcp open  tcpwrapped syn-ack ttl 128
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+Network Distance: 4 hops
+
+TRACEROUTE (using port 49155/tcp)
+HOP RTT          ADDRESS
+1   ... 3
+4   182197.41 ms 10.180.115.150
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 41 IP addresses (41 hosts up) scanned in 3032.39 seconds

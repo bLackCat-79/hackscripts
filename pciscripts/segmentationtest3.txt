@@ -1,0 +1,23 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-12-19 14:51 CET
+Stats: 0:03:00 elapsed; 158 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 3.95% done; ETC: 14:57 (0:02:50 remaining)
+Stats: 0:06:00 elapsed; 158 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 28.36% done; ETC: 15:05 (0:07:52 remaining)
+Stats: 0:09:00 elapsed; 158 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 29.62% done; ETC: 15:15 (0:14:34 remaining)
+Stats: 0:12:00 elapsed; 158 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 30.72% done; ETC: 15:24 (0:20:33 remaining)
+Stats: 0:15:00 elapsed; 158 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 31.84% done; ETC: 15:32 (0:25:56 remaining)
+Stats: 0:18:00 elapsed; 239 hosts completed (81 up), 17 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 34.59% done; ETC: 15:10 (0:00:57 remaining)
+Stats: 0:21:00 elapsed; 239 hosts completed (81 up), 17 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 39.33% done; ETC: 15:18 (0:05:24 remaining)
+Stats: 0:24:00 elapsed; 239 hosts completed (81 up), 17 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 44.11% done; ETC: 15:23 (0:08:14 remaining)
+Stats: 0:27:00 elapsed; 239 hosts completed (81 up), 17 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 48.89% done; ETC: 15:28 (0:09:56 remaining)
+Stats: 0:30:02 elapsed; 239 hosts completed (81 up), 17 undergoing Traceroute
+Traceroute Timing: About 1.90% done; ETC: 15:22 (0:00:52 remaining)
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (81 hosts up) scanned in 1803.16 seconds
